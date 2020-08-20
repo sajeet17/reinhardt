@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "../venv/bin/python3",
+    "python.pythonPath": "${workspaceFolder}/backend/venv/bin/python3",
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "pylint",
@@ -11,7 +11,7 @@
     "python.linting.pycodestyleArgs": [
         "--ignore=E501"
     ],
-    "python.venvPath": "../venv/bin/python3",
+    "python.venvPath": "${workspaceFolder}/backend/venv/bin/python3",
     "files.exclude": {
         "**/*.pyc": true
     },
